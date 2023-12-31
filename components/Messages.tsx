@@ -13,7 +13,7 @@ const Messages = () => {
             duration: 2,
             scrollTrigger: {
                 trigger: ".message",
-                start: "top 50%",
+                start: "top 30%",
                 end: "bottom",
                 scrub: true,
             },
@@ -23,7 +23,7 @@ const Messages = () => {
             duration: 2,
             scrollTrigger: {
                 trigger: ".message_two",
-                start: "top 50%",
+                start: "top 30%",
                 end: "bottom",
                 scrub: true,
             },
@@ -33,7 +33,7 @@ const Messages = () => {
             duration: 2,
             scrollTrigger: {
                 trigger: ".message_three",
-                start: "top 50%",
+                start: "top 30%",
                 end: "bottom",
                 scrub: true,
             },
@@ -42,21 +42,19 @@ const Messages = () => {
 
     return (
         <>
-            <div className="container">
-                <div className="h-screen bg-black flex justify-center items-center panel">
-                    <h2 className="text-center text-white">Swipe down to see more</h2>
-                </div>
-
-                <section className="message panel">
-                    <h1 className="message_heading">To My</h1>
-                </section>
-                <section className="message_two panel">
-                    <h1 className="message_heading_two">Beautiful</h1>
-                </section>
-                <section className="message_three panel">
-                    <h1 className="message_heading_three">Babe &lt;3</h1>
-                </section>
+            <div className="h-screen bg-black flex justify-center items-center panel">
+                <h2 className="text-center text-white">Swipe down to see more</h2>
             </div>
+
+            <section className="message panel">
+                <h1 className="message_heading">To My</h1>
+            </section>
+            <section className="message_two panel">
+                <h1 className="message_heading_two">Beautiful</h1>
+            </section>
+            <section className="message_three panel">
+                <h1 className="message_heading_three">Babe &lt;3</h1>
+            </section>
         </>
     );
 };
