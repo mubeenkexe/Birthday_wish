@@ -1,5 +1,5 @@
 "use client";
-import Cards from "@/components/Cards";
+
 import Messages from "@/components/Messages";
 import { useEffect } from "react";
 
@@ -17,7 +17,6 @@ export default function Home() {
   return (
     <>
       <Messages />
-      <Cards />
     </>
   );
 }
