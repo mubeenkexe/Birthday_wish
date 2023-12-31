@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border;
+}
+
+body {
+  @apply overflow-hidden
+}
+
+.message,
+.message_two,
+.message_three {
+  @apply h-screen flex justify-center items-center bg-black snap-start
+}
+
+.message_heading, .message_heading_two, .message_heading_three {
+  @apply font-bold text-8xl text-white opacity-0;
+  font-family: 'Patrick Hand SC', cursive;
+}
+.cards {
+  height: 70vh;
+  width: 90%;
+  margin: auto;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card {
+  @apply absolute w-[60%] h-[70vh] bg-white flex justify-center items-center
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  margin-bottom: 50px;
+}
+
+.card-1 {
+  left: 0;
+  top: 0;
+}
+
+.card-2 {
+  left: 35px;
+  top: 35px;
+}
+
+.card-3 {
+  left: 70px;
+  top: 70px;
+}
+
+.card h2 {
+  font-size: 80px;
+  font-weight: 900;
+  font-stretch: condensed;
+  color: #ff98a2;
+  text-transform: uppercase;
+}
