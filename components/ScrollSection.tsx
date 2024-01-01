@@ -46,14 +46,14 @@ function ScrollSection() {
               someone like you into my life? Every day, I witness the beauty of
               your heart reflected in your actions. From the way you lend a
               listening ear to those in need to the unwavering support you offer
-              me, your kindness leaves me in awe
+              me, your kindness leaves me in awe ♕
             </h3>
             <Image
               src="/images/cat.jpg"
               alt="cat pic"
               width={350}
               height={350}
-              className="rounded-xl"
+              className="rounded-xl md:hidden"
             />
           </div>
           <div className="scroll-section flex items-center flex-col">
@@ -62,16 +62,16 @@ function ScrollSection() {
               alt="flower pic"
               width={350}
               height={350}
-              className="rounded-xl mt-7"
+              className="rounded-xl md:hidden"
             />
             <h3>
-              Two years. Two years of whispered secrets across time zones,
+              Two years ✦ Two years of whispered secrets across time zones,
               virtual movie nights under shared constellations, and hearts that
               beat in perfect harmony despite the distance. We've learned to
               paint bridges with words, build castles with dreams, and find
               comfort in the echo of each other's laughter. May our journey
               stretch like starlight, babe, forever connected by the invisible
-              threads of love.
+              threads of love ♥
             </h3>
           </div>
           <div className="scroll-section flex items-center flex-col">
@@ -81,14 +81,14 @@ function ScrollSection() {
               love. Each whispered wish echoes across the miles, a testament to
               the unyielding power of our connection. Soon, sweetheart, we'll
               dance under the same sky, celebrating life's milestones with the
-              rhythm of our beating hearts.
+              rhythm of our beating hearts ❀
             </h3>
             <Image
               src="/images/moon.jpg"
               alt="moon pic"
               width={350}
               height={350}
-              className="rounded-xl"
+              className="rounded-xl md:hidden"
             />
           </div>
           <div className="scroll-section flex flex-col gap-3">
@@ -96,7 +96,7 @@ function ScrollSection() {
               Babe, happy birthday to the girl who makes every sunrise feel like
               a celebration. May this year be the most joy-filled one yet,
               bursting with laughter, adventures, and the fulfillment of every
-              single dream you hold dear. I miss you fiercely, but the thought
+              single dream you hold dear.✿ I miss you fiercely, but the thought
               of our next reunion keeps my heart dancing. Every sunset spent
               apart is a brushstroke towards the dawn where I can whisper 'Happy
               Birthday, my love' in your ear again. I love you more than words
@@ -106,7 +106,7 @@ function ScrollSection() {
 
             <div>
 
-            <h4 className="yourLove">Your Love</h4>
+            <h4 className="yourLove">Your Love ✎</h4>
             <h4 className="yourLove">~Mubeen</h4>
 
             </div>
