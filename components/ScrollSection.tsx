@@ -51,8 +51,8 @@ function ScrollSection() {
             <Image
               src="/images/cat.jpg"
               alt="cat pic"
-              width={300}
-              height={300}
+              width={350}
+              height={350}
               className="rounded-xl"
             />
           </div>
@@ -60,8 +60,8 @@ function ScrollSection() {
             <Image
               src="/images/flower.jpg"
               alt="flower pic"
-              width={300}
-              height={300}
+              width={350}
+              height={350}
               className="rounded-xl mt-7"
             />
             <h3>
@@ -86,8 +86,8 @@ function ScrollSection() {
             <Image
               src="/images/moon.jpg"
               alt="moon pic"
-              width={300}
-              height={300}
+              width={350}
+              height={350}
               className="rounded-xl"
             />
           </div>
