@@ -42,8 +42,9 @@ const Messages = () => {
 
     return (
         <>
-            <div className="h-screen bg-black flex justify-center items-center panel">
+            <div className="h-screen bg-black flex justify-center items-center panel flex-col">
                 <h2 className="text-center text-white">Swipe down to see more</h2>
+                <p className="text-white">(slowly)</p>
             </div>
 
             <section className="message panel">
