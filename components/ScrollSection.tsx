@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
+import Image from "next/image";
 
 function ScrollSection() {
   const sectionRef = useRef(null);
@@ -39,7 +40,7 @@ function ScrollSection() {
     <section className="scroll-section-outer">
       <div ref={triggerRef}>
         <div ref={sectionRef} className="scroll-section-inner">
-          <div className="scroll-section flex flex-col">
+          <div className="scroll-section flex items-center flex-col">
             <h3>
               Are you aware how deeply grateful I am to Allah for bringing
               someone like you into my life? Every day, I witness the beauty of
@@ -47,8 +48,22 @@ function ScrollSection() {
               listening ear to those in need to the unwavering support you offer
               me, your kindness leaves me in awe
             </h3>
+            <Image
+              src="/images/cat.jpg"
+              alt="cat pic"
+              width={400}
+              height={400}
+              className="rounded-xl"
+            />
           </div>
-          <div className="scroll-section">
+          <div className="scroll-section flex items-center flex-col">
+            <Image
+              src="/images/flower.jpg"
+              alt="flower pic"
+              width={360}
+              height={360}
+              className="rounded-xl mt-7"
+            />
             <h3>
               Two years. Two years of whispered secrets across time zones,
               virtual movie nights under shared constellations, and hearts that
@@ -68,8 +83,15 @@ function ScrollSection() {
               dance under the same sky, celebrating life's milestones with the
               rhythm of our beating hearts.
             </h3>
+            <Image
+              src="/images/moon.jpg"
+              alt="moon pic"
+              width={400}
+              height={400}
+              className="rounded-xl"
+            />
           </div>
-          <div className="scroll-section">
+          <div className="scroll-section lastSection">
             <h3>
               Babe, happy birthday to the girl who makes every sunrise feel like
               a celebration. May this year be the most joy-filled one yet,
