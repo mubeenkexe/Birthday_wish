@@ -1,6 +1,7 @@
 "use client";
 
 import Messages from "@/components/Messages";
+import ScrollSection from "@/components/ScrollSection";
 import { useEffect } from "react";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <>
       <Messages />
+      <ScrollSection />
     </>
   );
 }

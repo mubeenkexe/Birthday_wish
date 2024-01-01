@@ -47,13 +47,13 @@ const Messages = () => {
             </div>
 
             <section className="message panel">
-                <h1 className="message_heading">To My</h1>
+                <h1 className="message_heading mainMessage">To My</h1>
             </section>
             <section className="message_two panel">
-                <h1 className="message_heading_two">Beautiful</h1>
+                <h1 className="message_heading_two mainMessage">Beautiful</h1>
             </section>
             <section className="message_three panel">
-                <h1 className="message_heading_three">Babe &lt;3</h1>
+                <h1 className="message_heading_three mainMessage">Babe &lt;3</h1>
             </section>
         </>
     );

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand+SC&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -10,57 +9,45 @@
 }
 
 .container {
-  @apply w-full
+  @apply w-full;
 }
 
-.message,
-.message_two,
-.message_three {
-  @apply w-full h-screen flex justify-center items-center bg-black 
+.panel {
+  @apply w-full h-screen flex justify-center items-center bg-black;
 }
 
-.message_heading, .message_heading_two, .message_heading_three {
+.mainMessage {
   @apply font-bold text-8xl text-white opacity-0;
-  font-family: 'Patrick Hand SC', cursive;
+  font-family: "Patrick Hand SC", cursive;
 }
 
-.races {
-	width:fit-content;
-	display:flex;
-	flex-wrap:nowrap;
+.scroll-section h3 {
+	@apply text-white text-7xl uppercase
+} 
+
+.scroll-section-outer {
+  @apply overflow-hidden bg-black
 }
 
-.races h2 {
-	font-family: 'Staatliches', cursive;
-	font-size:30vw;
-	flex-shrink:0;
-	padding-right:0.3em;
-	padding-left:0.3em;
-	color:#e10600;
-	
-	margin:0;	
+.scroll-section-inner {
+  height: 100vh;
+  width: 400vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
-.races h2:last-of-type {
-	background:#e1e1ff;
+.scroll-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.lightBG {
-	background:#313143;
-}
-
-.space-20vh {
-	height:20vh;
-}
-
-.space-30vh {
-	height:30vh;
-}
-
-.space-50vh {
-	height:50vh;
-}
-
-.space-100vh {
-	height:100vh;
-}
+/* .scroll-section h3 {
+  color: var(--primaryTextColor);
+  letter-spacing: var(--headlineMedium);
+  font-size: var(--headlineMedium);
+  text-transform: uppercase;
+} */
