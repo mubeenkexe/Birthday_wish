@@ -22,7 +22,8 @@
 }
 
 .scroll-section h3 {
-  @apply text-white text-7xl uppercase;
+  @apply text-white text-4xl font-bold px-7 py-10 md:text-5xl;
+  font-family: "Patrick Hand SC", cursive;
 }
 
 .scroll-section-outer {
@@ -41,19 +42,14 @@
   display: flex;
   flex-direction: row;
   position: relative;
+  @apply items-center
 }
 
 .scroll-section {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @apply h-screen w-screen
 }
 
-/* .scroll-section h3 {
-  color: var(--primaryTextColor);
-  letter-spacing: var(--headlineMedium);
-  font-size: var(--headlineMedium);
-  text-transform: uppercase;
-} */
+.yourLove {
+  @apply text-white text-3xl font-bold px-7 md:text-4xl;
+  font-family: "Patrick Hand SC", cursive;
+}

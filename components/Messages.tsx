@@ -10,7 +10,7 @@ const Messages = () => {
     useEffect(() => {
         gsap.to(".message_heading", {
             opacity: 3,
-            duration: 2,
+            duration: 4,
             scrollTrigger: {
                 trigger: ".message",
                 start: "top 30%",
@@ -20,7 +20,7 @@ const Messages = () => {
         });
         gsap.to(".message_heading_two", {
             opacity: 3,
-            duration: 2,
+            duration: 4,
             scrollTrigger: {
                 trigger: ".message_two",
                 start: "top 30%",
@@ -30,7 +30,7 @@ const Messages = () => {
         });
         gsap.to(".message_heading_three", {
             opacity: 3,
-            duration: 2,
+            duration: 4,
             scrollTrigger: {
                 trigger: ".message_three",
                 start: "top 30%",
