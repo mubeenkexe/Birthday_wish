@@ -71,7 +71,7 @@ function ScrollSection() {
               paint bridges with words, build castles with dreams, and find
               comfort in the echo of each other's laughter. May our journey
               stretch like starlight, babe, forever connected by the invisible
-              threads of love ♥
+              threads of love ♡
             </h3>
           </div>
           <div className="scroll-section flex items-center flex-col">
