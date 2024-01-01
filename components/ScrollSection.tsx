@@ -51,8 +51,8 @@ function ScrollSection() {
             <Image
               src="/images/cat.jpg"
               alt="cat pic"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
               className="rounded-xl"
             />
           </div>
@@ -60,8 +60,8 @@ function ScrollSection() {
             <Image
               src="/images/flower.jpg"
               alt="flower pic"
-              width={360}
-              height={360}
+              width={300}
+              height={300}
               className="rounded-xl mt-7"
             />
             <h3>
@@ -74,7 +74,7 @@ function ScrollSection() {
               threads of love.
             </h3>
           </div>
-          <div className="scroll-section">
+          <div className="scroll-section flex items-center flex-col">
             <h3>
               Even across oceans, your birthday sparklers light up my heart.
               This distance can't sever the invisible thread that binds us, my
@@ -86,12 +86,12 @@ function ScrollSection() {
             <Image
               src="/images/moon.jpg"
               alt="moon pic"
-              width={400}
-              height={400}
+              width={300}
+              height={300}
               className="rounded-xl"
             />
           </div>
-          <div className="scroll-section lastSection">
+          <div className="scroll-section flex flex-col gap-3">
             <h3>
               Babe, happy birthday to the girl who makes every sunrise feel like
               a celebration. May this year be the most joy-filled one yet,
@@ -103,8 +103,13 @@ function ScrollSection() {
               can express, and I can't wait to paint our future together with
               vibrant colors of joy. Happy birthday, my moonbeam!
             </h3>
+
+            <div>
+
             <h4 className="yourLove">Your Love</h4>
             <h4 className="yourLove">~Mubeen</h4>
+
+            </div>
           </div>
         </div>
       </div>
