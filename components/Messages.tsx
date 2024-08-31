@@ -56,13 +56,13 @@ const Messages = () => {
             <section className="message_two panel">
                 <h1 className="message_heading_two mainMessage">Beautiful</h1>
             </section>
-            <section className="message_three panel">
+            <section className="message_three panel" style={{ backgroundImage: `url(${Pic1.src}), url(${Pic2.src})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
                 <h1 className="message_heading_three mainMessage">Best Friend &lt;3</h1>
             </section>
-            <section className="image_section panel">
+            {/* <section className="image_section panel">
                 <Image src={Pic1} alt="Friend Pic 1" className="rounded-xl" width={350} height={350} />
                 <Image src={Pic2} alt="Friend Pic 2" className="rounded-xl" width={350} height={350} />
-            </section>
+            </section> */}
         </>
     );
 };
